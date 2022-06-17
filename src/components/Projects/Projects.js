@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
+
 import guru from "../../Assets/Projects/guru.png";
 import att from "../../Assets/Projects/att.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import Rest from "../../Assets/Projects/Rest.png";
+
+import Rest from "../../Assets/Projects/rest.png";
 
 function Projects() {
   return (
@@ -36,9 +35,7 @@ function Projects() {
               imgPath={Rest}
               isBlog={false}
               title="Restaurant website "
-              description="The Website Consist of Menu ,chef details ,feedback form and the restaurant description & location 
-
-              Also, comes with reserve table online feature "
+              description="The Website Consist of Menu ,chef details ,feedback form and the restaurant description & location Also, comes with reserve table online feature "
               link="https://chitkaras.netlify.app/"
             />
           </Col>
